@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership | AIFAP</title>
+  <meta name="description" content="Become part of a global professional finance and accounting community. Explore membership categories, benefits, and how to apply.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="index.html">AIFAP<span>.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link active" href="membership.html">Membership</a></li>
+            <li class="nav-item"><a class="nav-link" href="corporate-training.html">Corporate Training</a></li>
+            <li class="nav-item"><a class="nav-link" href="partnerships.html">Partnerships</a></li>
+            <li class="nav-item ms-lg-3"><a class="btn btn-primary-custom" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header" style="background: linear-gradient(rgba(10, 49, 97, 0.9), rgba(10, 49, 97, 0.9)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;">
+        <div class="container">
+        <h1>Verification</h1>
+        <p class="lead">Become Part of a Global Professional Finance & Accounting Community</p>
+        </div>
+    </header>
+
+    <section class="section-padding">
+
+        <div class="container">
+
+            <h2 class="sr-only">AIFAP Verification Section — search by unique ID to verify certificates, memberships, partnerships,
+            and accredited institutes</h2>
+        
+            <div class="vfy-wrap">
+            <div class="vfy-header">
+                <div class="vfy-eyebrow">Public Verification Portal</div>
+                <div class="vfy-title">Credential Verification</div>
+                <div class="vfy-subtitle">Verify the authenticity of AIFAP-issued certificates, memberships, partnerships, and
+                accredited institutes using a unique ID.</div>
+            </div>
+        
+                <div class="vfy-body">
+                    <div class="vfy-search-block">
+                    <div class="vfy-field-label">Verification type</div>
+                    <select class="vfy-select" id="vfy-select">
+                        <option value="all" data-prefix="" data-placeholder="Enter any AIFAP ID">— Select verification type —</option>
+                        <option value="cert" data-prefix="AIFAP-CERT-" data-placeholder="e.g. AIFAP-CERT-2024-00182">Certificate
+                        Verification</option>
+                        <option value="mem" data-prefix="AIFAP-MEM-" data-placeholder="e.g. AIFAP-MEM-2024-00045">Membership
+                        Verification</option>
+                        <option value="part" data-prefix="AIFAP-PART-" data-placeholder="e.g. AIFAP-PART-2024-00012">Partnership
+                        Verification</option>
+                        <option value="acc" data-prefix="AIFAP-ACC-" data-placeholder="e.g. AIFAP-ACC-2024-00008">Accredited Institute
+                        Verification</option>
+                    </select>
+
+                    <div class="vfy-field-label">Unique ID</div>
+                    <div class="vfy-search-row">
+                        <div class="vfy-input-wrap">
+                        <i class="ti ti-search vfy-input-icon" aria-hidden="true"></i>
+                        <input class="vfy-input" id="vfy-input" type="text" placeholder="Enter any AIFAP ID" />
+                        </div>
+                        <button class="vfy-btn">
+                        <i class="ti ti-shield-check" aria-hidden="true"></i>
+                        Verify
+                        </button>
+                    </div>
+                    <div class="vfy-hint" id="vfy-hint">Enter the ID exactly as printed on your credential document.</div>
+                    </div>
+
+                    <div class="vfy-types-label">Verification types</div>
+                    <div class="vfy-cards-grid">
+                    <div class="vfy-card" data-card="cert">
+                        <div class="vfy-card-top">
+                        <div class="vfy-card-icon-wrap"><i class="ti ti-certificate" aria-hidden="true"></i></div>
+                        <i class="ti ti-arrow-right vfy-card-arrow" aria-hidden="true"></i>
+                        </div>
+                        <div class="vfy-card-name">Certificate Verification</div>
+                        <div class="vfy-card-id">AIFAP-CERT-XXXX</div>
+                    </div>
+                    <div class="vfy-card" data-card="mem">
+                        <div class="vfy-card-top">
+                        <div class="vfy-card-icon-wrap"><i class="ti ti-id-badge" aria-hidden="true"></i></div>
+                        <i class="ti ti-arrow-right vfy-card-arrow" aria-hidden="true"></i>
+                        </div>
+                        <div class="vfy-card-name">Membership Verification</div>
+                        <div class="vfy-card-id">AIFAP-MEM-XXXX</div>
+                    </div>
+                    <div class="vfy-card" data-card="part">
+                        <div class="vfy-card-top">
+                        <div class="vfy-card-icon-wrap"><i class="ti ti-handshake" aria-hidden="true"></i></div>
+                        <i class="ti ti-arrow-right vfy-card-arrow" aria-hidden="true"></i>
+                        </div>
+                        <div class="vfy-card-name">Partnership Verification</div>
+                        <div class="vfy-card-id">AIFAP-PART-XXXX</div>
+                    </div>
+                    <div class="vfy-card" data-card="acc">
+                        <div class="vfy-card-top">
+                        <div class="vfy-card-icon-wrap"><i class="ti ti-building" aria-hidden="true"></i></div>
+                        <i class="ti ti-arrow-right vfy-card-arrow" aria-hidden="true"></i>
+                        </div>
+                        <div class="vfy-card-name">Accredited Institute Verification</div>
+                        <div class="vfy-card-id">AIFAP-ACC-XXXX</div>
+                    </div>
+                    </div>
+
+                    <div class="vfy-note">
+                    <i class="ti ti-info-circle vfy-note-icon" aria-hidden="true"></i>
+                    <div class="vfy-note-text text-white">Each AIFAP credential carries a unique ID printed on the document. Enter the exact ID
+                        as shown to confirm authenticity. For assistance, contact the AIFAP registry office.</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+            <h4 class="text-white fw-bold mb-3" style="font-family: 'Outfit';">AIFAP<span class="text-red">.</span></h4>
+            <p class="pe-lg-4" style="font-size: 0.95rem;">Build Competent Finance & Accounting Professionals for a Changing Business World.</p>
+            <div class="social-icons mt-4">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+            <h5>About</h5>
+            <ul class="footer-links">
+                <li><a href="about.html">About AIFAP</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="corporate-training.html">Corporate Training</a></li>
+            </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+            <h5>Verification & Policies</h5>
+            <ul class="footer-links">
+                <li><a href="./verify.html">Verification</a></li>
+                <li><a href="policies.html">Privacy Policy</a></li>
+                <li><a href="policies.html">Terms & Conditions</a></li>
+                <li><a href="policies.html">Refund Policy</a></li>
+                <li><a href="policies.html">Code of Ethics</a></li>
+            </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+            <h5>Contact</h5>
+            <ul class="footer-links">
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="mailto:support@aifap.org">Email Support</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="mb-0">&copy; American Institute of Finance and Accounting Professional (AIFAP). All rights reserved.</p>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
